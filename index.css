@@ -1,0 +1,111 @@
+body{
+    background-color: cadetblue;
+}
+.header1{
+background-color:rgb(27, 25, 21);
+border: 1 solid;
+height: 120px;
+display: block;
+}
+.header1 h1{
+    color: white;;
+}
+.topnav {
+  overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14pt;
+  font-style: normal;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover{
+    background-color: rgb(151, 232, 232);
+}
+.search1 {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+  margin-left: auto;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+h1{
+    margin-top: 1%;
+    display: flex;
+}
+.searchi{
+    justify-content: flex-end;
+    width: 10px;
+}
+.h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 23pt;
+color: rgb(199, 225, 230);
+font-style: italic;
+justify-content: center;
+}
+.img {
+    display: inline-block;
+    align-items: center;
+    width: 130px;
+    background-color: green;
+    border: 1px solid #988383;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+/* Style laptop images */
+.img img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+}
+
+/* Style laptop names */
+.img h3 {
+  color: #222;
+  font-size: 20px;
+  margin: 12px 0;
+}
+
+/* Style product information */
+.img p {
+  color: white;
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+/* Highlight the price */
+.img .price {
+  color: #008000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Hover effect */
+.img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive design for phones */
+@media (max-width: 500px) {
+  .products {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
