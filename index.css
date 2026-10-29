@@ -26,6 +26,7 @@ display: block;
 }
 .topnav a:hover{
     background-color: rgb(151, 232, 232);
+    color: red;
 }
 .search1 {
   display: flex;
